@@ -1,0 +1,48 @@
+@media screen and (max-width:450px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0px;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 10px 0px;
+    }
+
+    .logo img {
+        width: 30vw;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .search {
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .search input {
+        width: 25vw;
+        height: 3vh;
+        margin: 0px 10px;
+    }
+
+    .search button {
+        width: 15vw;
+
+    }
+    .card-item img{
+        width: 20vw;
+    
+    }
+    .lines{
+        width: 20vw;
+    }
+    .my-1{
+        width: 90vw;
+        margin: 10px 0px;
+    }
+}
